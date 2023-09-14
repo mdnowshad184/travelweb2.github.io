@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(to right,rgb(6, 241, 183),rgb(4, 39, 1));
+  
+}
+
+ul.topnav li {float: right;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-image: linear-gradient( rgb(6, 241, 183),rgb(6, 39, 2));}
+
+ul.topnav li a.active {background-image:linear-gradient(to bottom right,rgb(4, 39, 1),rgb(6, 241, 2));}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+body,h1,h2,h3,h4,h6{
+  font-family:Helvetica,Arial,sans-serif;
+  color:white;
+}
+h1{
+  font-size:60px;
+}
+h5{
+  letter-spacing: 4px;
+}
+body{
+  background-image: url("Sajek-valley-1.jpg");
+  background-size: cover;
+
+}
+
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a href="#about">about</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a class="active" href="#home">Home</a></li>
+</ul>
+
+<div style="padding:200px 0;text-align:center;">
+  <h5>DISCOVER THE COLORFUL WORLD</h5>
+  <h1><b>NEW ADVENTURE</b></h1>
+  <p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
+  <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+  <h4>Resize the browser window to see the effect.</h4>
+</div>
+
+</body>
+</html>
+
+
